@@ -3,12 +3,12 @@ import { Content } from "antd/lib/layout/layout";
 import Sider from "antd/lib/layout/Sider";
 import { ItemType } from "antd/lib/menu/hooks/useItems";
 
-export interface GroupPropsType {
+export interface OptionsGroupPropsType {
     siderLinks: ItemType[],
     content: JSX.Element,
 }
 
-export function Group(props: GroupPropsType) {
+export function OptionsGroup(props: OptionsGroupPropsType) {
     return (
         <Row>
             <Col flex="200px">

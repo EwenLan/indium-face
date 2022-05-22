@@ -1,5 +1,6 @@
 import { Navigate } from "react-router-dom";
 import { DefaultRoute } from "../constdef";
+import { About } from "../pages/about";
 import { HomeIndex } from "./home";
 
 export const IndexRoutes = [
@@ -13,7 +14,7 @@ export const IndexRoutes = [
     },
     {
         path: "/about",
-        element: <>About</>
+        element: <About />
     },
-    ...HomeIndex
+    ...HomeIndex,
 ]

@@ -1,6 +1,6 @@
 import { ItemType } from "antd/lib/menu/hooks/useItems"
 import { Link, RouteObject } from "react-router-dom"
-import { Group } from "../templates/optionsgroup"
+import { OptionsGroup } from "../templates/optionsgroup"
 
 interface RouteProps {
     pathName: string
@@ -24,6 +24,6 @@ export function RouteGroup(routeGroup: RouteGroupProps): RouteObject[] {
     const siderLinks = SiderLinks(routeGroup)
     return routeGroup.routes.map((val) => ({
         path: `${routeGroup.pathPrefix}/${val.pathName}`,
-        element: <Group siderLinks={siderLinks} content={val.element} />
+        element: <OptionsGroup siderLinks={siderLinks} content={val.element} />
     } as RouteObject))
 }
