@@ -1,7 +1,7 @@
-import { Navigate } from "react-router-dom";
-import { DefaultRoute } from "../constdef";
-import { About } from "../pages/about";
-import { HomeIndex } from "./home";
+import { Navigate } from "react-router-dom"
+import { DefaultRoute } from "../constdef"
+import { About } from "../pages/about"
+import { HomeIndex } from "./home"
 
 export const IndexRoutes = [
     {

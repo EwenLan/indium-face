@@ -1,7 +1,7 @@
-import { Row, Col, Menu } from "antd";
-import { Content } from "antd/lib/layout/layout";
-import Sider from "antd/lib/layout/Sider";
-import { ItemType } from "antd/lib/menu/hooks/useItems";
+import { Row, Col, Menu } from "antd"
+import { Content } from "antd/lib/layout/layout"
+import Sider from "antd/lib/layout/Sider"
+import { ItemType } from "antd/lib/menu/hooks/useItems"
 
 export interface OptionsGroupPropsType {
     siderLinks: ItemType[],

@@ -1,5 +1,5 @@
-import { TitledFunction } from "../../templates/titledfunction";
-import { Typography } from "antd";
+import { TitledFunction } from "../../templates/titledfunction"
+import { Typography } from "antd"
 const { Text } = Typography
 
 export function Func() {

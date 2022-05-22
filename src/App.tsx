@@ -1,10 +1,10 @@
-import React from 'react';
-import { Link, useRoutes } from 'react-router-dom';
-import { Layout, Menu } from 'antd';
-import { Content, Header } from 'antd/lib/layout/layout';
-import { ItemType } from 'antd/lib/menu/hooks/useItems';
-import './App.css';
-import { IndexRoutes } from './routes';
+import React from 'react'
+import { Link, useRoutes } from 'react-router-dom'
+import { Layout, Menu } from 'antd'
+import { Content, Header } from 'antd/lib/layout/layout'
+import { ItemType } from 'antd/lib/menu/hooks/useItems'
+import './App.css'
+import { IndexRoutes } from './routes'
 
 const headerLink: ItemType[] = [
     {
@@ -31,7 +31,7 @@ function App() {
                 </Content>
             </Layout>
         </div >
-    );
+    )
 }
 
-export default App;
+export default App
