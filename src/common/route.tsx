@@ -1,6 +1,6 @@
 import { ItemType } from "antd/lib/menu/hooks/useItems"
 import { Link, RouteObject } from "react-router-dom"
-import { Group } from "../templates/group"
+import { Group } from "../templates/optionsgroup"
 
 interface RouteProps {
     pathName: string
