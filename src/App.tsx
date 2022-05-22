@@ -16,7 +16,7 @@ function App() {
           <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["0"]} items={items1}></Menu>
         </Header>
         <Content className="page-content-background">
-          <Layout className="site-layout-background">
+          <Layout className="site-layout-background site-layout">
             <Row>
               <Col>
                 <Sider className="site-layout-background" width={200}>
