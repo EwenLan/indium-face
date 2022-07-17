@@ -1,7 +1,6 @@
 # Indium Face
-A web page template built by Reace and Antd.
 
-[toc]
+A web page template built by Reace and Antd.
 
 ## Preview
 
