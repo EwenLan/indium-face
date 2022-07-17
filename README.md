@@ -5,6 +5,8 @@ A web page template built by Reace and Antd.
 
 ## Preview
 
+![image](Screenshot%202022-07-17%20171244.png)
+
 ## How to run this sample
 
 Clone this project by
