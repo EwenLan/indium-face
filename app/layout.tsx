@@ -40,7 +40,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Layout className="app-layout">
-          <Header style={{ display: "flex", alignItems: "center" }}>
+          <Header style={{ display: "flex", alignItems: "center", padding: "0 24px" }}>
             <Menu mode="horizontal" theme="dark" items={headerMenuItems} defaultSelectedKeys={["1"]} style={{ flex: "1", minWidth: 0 }} />
           </Header>
           <Content className="app-outer-content">
