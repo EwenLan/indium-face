@@ -23,7 +23,7 @@ yarn install
 Run this app in development mode by
 
 ```
-yarn start
+yarn dev
 ```
 
 Builds the app for production to the build folder by
